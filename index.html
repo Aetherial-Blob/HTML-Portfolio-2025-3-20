@@ -4,38 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geoffrey Casella's Portfolio</title>
-    <style>
 
-        html, body {
-            height: 100%; /* Ensure the full height of the page */
-            margin: 1%;
-            padding: 0;
-        }
 
-        body {
-            background-image: url("./Images/Code-Uses.png");
-            background-position: center;
-            background-repeat: no-repeat; /* No repeating of the background image */
-            background-size: cover; /* Ensure the background image covers the entire viewport */
-            background-attachment: fixed; /* Make the background fixed during scroll */
-            color: rgb(0, 0, 0); /* Optional: for better visibility of text */
-            }
-    </style>
+<link rel="stylesheet" href="style.css">
+
 </head>
+<header class="header">
+    
+<div class="box">
+    <h1>Geoffrey Casella's Portfolio</h1>
+    <h2>I'm a Web Developer</h2>
+</div>
+
+</header>
 <body>
 
-<h1>Geoffrey Casella's Portfolio</h1>
-<h2>I'm a Web Developer</h2>
-<hr/>
 
-<a href="./Projects/Movie/index.html"><h3>Movie Ranking (or game)</h3></a>
-<h4>My top 3 movies (or games)</h4>
-<img src="./Projects/Movie/MR.png" height="300" width="600" alt="Movie Rating">
+<div class="grid">
+
+<div class="box">
+    <h3>My top 3 movies (or games)</h3>    
+    <a href="./Projects/Movie/index.html">
+        <img src="./Projects/Movie/MR.png" height="300" width="600" onerror="this.onerror=null;this.src='./Images/image-not-available-image.jpg';" alt="Movie Rating">
+    </a>
+</div>
+
+<div class="box">
+    <h3>Birthday Invite</h3>
+    <a href="./Projects/Birthday/index.html">
+        <img src="./Projects/Birthday/BD.png" height="300" width="600" onerror="this.onerror=null;this.src='./Images/image-not-available-image.jpg';" alt="Birthday">
+    </a>
+</div>
+
+<!--
+<div class="box">
+    <h3>Movie Ranking (or game)</h3>
+    <h4>My top 3 movies (or games)</h4>
+    <a href="./Projects/Memes/Motivation/index.html">
+        <img src="./Images/IMAGE" height="300" width="600" onerror="this.onerror=null;this.src='./Images/image-not-available-image.jpg';" alt="DESCRIPTION">
+    </a>
+</div>
+-->
+
+    <div class="box">
+        <h3>Motivational Meme V1</h3>
+        <a href="./Projects/Memes/Motivation/v1-1/index.html">
+            <img src="./Projects/Memes/Motivation/v1-1/assets/images/daenerys.jpg" height="300" width="600" onerror="this.onerror=null;this.src='./Images/image-not-available-image.jpg';" alt="DESCRIPTION">
+        </a>
+    </div>
 
 
-<a href="./Projects/Birthday/index.html"><h3>Birthday Invite</h3></a>
-<h4>It's my birthday!</h4>
-<img src="./Projects/Birthday/BD.png" height="300" width="600" alt="Birthday">
+    <div class="box">
+        <h3>Motivational Meme V2</h3>
+        <a href="./Projects/Memes/Motivation/v1-2/index.html">
+            <img src="./Projects/Memes/Motivation/v1-1/assets/images/daenerys.jpg" height="300" width="600" onerror="this.onerror=null;this.src='./Images/image-not-available-image.jpg';" alt="DESCRIPTION">
+        </a>
+    </div>
+
+    
+</div>
+
+<!--
+<h3>TITLE</h3>
+<a href="HTML">
+<img src="IMAGE" height="300" width="600" onerror="this.onerror=null;this.src='./Images/image-not-available-image.jpg';" alt="DESCRIPTION">
+</a>
+-->
+
+
+
+
+
 
 <!--
 <hr/>
